@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+
+    <div id="image">
+        <span id="caption">Hover over an image below to display here.</span>
+    </div>
+
+    <div class="thumbnails">
+        <img src="images/Peach.jpg" alt="Peach"
+             onmouseover="upDate(this)" onmouseout="undo()">
+        <img src="images/Rose.jpg" alt="Rose"
+             onmouseover="upDate(this)" onmouseout="undo()">
+        <img src="images/HoaNhai.jpg" alt="Hoa Nhai"
+             onmouseover="upDate(this)" onmouseout="undo()">
+        <img src="images/Tulip.jpg" alt="Tulip"
+             onmouseover="upDate(this)" onmouseout="undo()">
+        <img src="images/Lotus.jpg" alt="Lotus"
+             onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+
+    <script src="js/gallery.js"></script>
+</body>
+</html>
